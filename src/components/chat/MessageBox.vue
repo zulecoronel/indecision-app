@@ -3,7 +3,7 @@
         <input
           type="text"
           placeholder="Type your message..."
-          class="flex-1 border rounded-full px-4 py-2 focus:outline-none"
+          class="text-black flex-1 border rounded-full px-4 py-2 focus:outline-none"
           v-model = "message"
           @keypress.enter="sendMessage"
           />
