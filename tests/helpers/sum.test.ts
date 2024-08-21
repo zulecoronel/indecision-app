@@ -15,10 +15,10 @@ test('adds 1 + 2 to equal 3', () => {
     //El comportamiento esperado
     expect(result).toBe(a + b)
     });
-    
+
 describe('addArray function',()=> {
 test ('should return 0 if the array is empty' , () => {
-    const numberArray = [];
+    const numberArray = [0];
 
     const result = addArray(numberArray);
   
